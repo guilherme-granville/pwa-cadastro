@@ -1,0 +1,64 @@
+
+
+#janela-flutuante{
+    justify-content: center;
+    box-shadow:0 8px 11px 0 rgba(0, 0, 0, 0.342),0 80px 160px 0 rgba(0, 0, 0, 0.089);
+    font-family: "Archivo Black", sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10%;
+    width: 25%;
+    height: auto;
+    padding: 20px;
+}
+.fodase{
+font-family: "Archivo Black", sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+section div{
+    display: flex;
+    justify-content: space-between;
+}
+
+section h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+input{
+    font-family: "Archivo Black", sans-serif;
+    margin: 5px;
+    border-color: black;
+    border-radius: 8px;
+    height: 30px;
+    width: 95%;
+}
+
+input::placeholder{
+  font-family: "Archivo Black", sans-serif;
+}
+
+label{
+    padding-left: 5px;
+}
+
+button{
+    font-family: "Archivo Black", sans-serif;
+    margin: 5px;
+    border-color: black;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 40px;
+    width: 95%;
+}
